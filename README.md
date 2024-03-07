@@ -3,7 +3,8 @@
 
 In this project, we're developing an AWS-based data pipeline utilizing airflow, python, spark, and AWS services. The objective is to extract Weather Data from OpenWeather, subsequently store it in S3, and ultimately load it into Redshift using the Airflow platform. The project's high-level architecture is as follows:
 
-![alt text](https://github.com/AnandDedha/aws-airflow-dataengineering-pipeline/blob/main/High%20Level%20Infra.drawio.png)
+![image](https://github.com/raguram147/Airflow-aws-dags/assets/41324316/1cb2dcd3-6508-407c-b979-3ff2fe098934)
+
 
 We've established the entire architecture through infrastructure as code (IAC) methodologies. Following that, we've configured two separate Airflow DAGs.
 
